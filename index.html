@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa Adventure Itinerary</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --sand-light: #F5E6C3;
+            --ocean-blue: #4A90E2;
+            --sunset-orange: #FF7F50;
+            --tropical-green: #2E8B57;
+        }
+        body {
+            background: linear-gradient(135deg, var(--sand-light) 0%, #ffffff 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .header {
+            background: linear-gradient(to right, var(--ocean-blue), var(--sunset-orange));
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+        .day-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(74, 144, 226, 0.2);
+            transition: all 0.3s ease;
+            border-left: 6px solid var(--ocean-blue);
+        }
+        .day-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(74, 144, 226, 0.3);
+        }
+        .section-title {
+            color: var(--tropical-green);
+            border-bottom: 3px solid var(--sunset-orange);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 p-4 md:p-8">
+    <div class="max-w-5xl mx-auto bg-white rounded-2xl overflow-hidden shadow-2xl">
+        <div class="header text-white text-center py-12 px-4">
+            <h1 class="text-4xl font-bold mb-3 text-white">Goa Adventure Itinerary</h1>
+            <p class="text-xl opacity-90">12th Dec - 18th Dec | Tropical Escape</p>
+        </div>
+        
+        <div class="p-6 space-y-8">
+            <!-- Day 1 -->
+            <div class="day-card p-6 rounded-lg">
+                <h2 class="text-3xl section-title pb-2 mb-4 font-semibold">Day 1: South Goa Arrival</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌅 Morning</h3>
+                        <ul class="space-y-2">
+                            <li>✈️ Arrive in South Goa</li>
+                            <li>🏨 Check into accommodation</li>
+                            <li>🏖️ Relax at Fatrade Beach</li>
+                            <li>☕ Beach cafe breakfast</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌞 Afternoon</h3>
+                        <ul class="space-y-2">
+                            <li>🏰 Cabo de Rama Fort</li>
+                            <li>🚶 Walk to Pebble Beach</li>
+                            <li>📸 Scenic views</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌙 Evening</h3>
+                        <ul class="space-y-2">
+                            <li>🌇 Sunset at Cabo de Rama Beach</li>
+                            <li>🍽️ Dinner in Agonda</li>
+                            <li>🍸 Light socializing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 2 -->
+            <div class="day-card p-6 rounded-lg">
+                <h2 class="text-3xl section-title pb-2 mb-4 font-semibold">Day 2: South Goa Exploration</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌅 Morning</h3>
+                        <ul class="space-y-2">
+                            <li>🏞️ Dudhsagar Falls</li>
+                            <li>💦 Tambdi Surla Falls</li>
+                            <li>🚶 Scenic exploration</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌞 Afternoon</h3>
+                        <ul class="space-y-2">
+                            <li>🍽️ Lunch in Madgaon</li>
+                            <li>🏖️ Colva Beach relaxation</li>
+                            <li>🌴 Beach time</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌙 Evening</h3>
+                        <ul class="space-y-2">
+                            <li>🛶 Night Kayaking</li>
+                            <li>✨ Bioluminescence hunt</li>
+                            <li>🌊 Palolem Beach</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 3 -->
+            <div class="day-card p-6 rounded-lg">
+                <h2 class="text-3xl section-title pb-2 mb-4 font-semibold">Day 3: South Goa Adventures</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌅 Morning</h3>
+                        <ul class="space-y-2">
+                            <li>🎈 Hot Air Balloon Ride</li>
+                            <li>🚢 Boat to Butterfly Beach</li>
+                            <li>🦋 Nature exploration</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌞 Afternoon</h3>
+                        <ul class="space-y-2">
+                            <li>🌿 Netravali Wildlife Sanctuary</li>
+                            <li>💧 Savri Waterfall</li>
+                            <li>🫧 Bubble Lake visit</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌙 Evening</h3>
+                        <ul class="space-y-2">
+                            <li>🍽️ Dinner at Agonda Beach</li>
+                            <li>🌅 Sunset relaxation</li>
+                            <li>🍸 Casual evening</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 4 -->
+            <div class="day-card p-6 rounded-lg">
+                <h2 class="text-3xl section-title pb-2 mb-4 font-semibold">Day 4: North Goa Arrival</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌅 Morning</h3>
+                        <ul class="space-y-2">
+                            <li>🚗 Travel to North Goa</li>
+                            <li>🏨 New accommodation</li>
+                            <li>☕ Prana Cafe breakfast</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌞 Afternoon</h3>
+                        <ul class="space-y-2">
+                            <li>🏄 Surf at Ashvem Beach</li>
+                            <li>🏖️ Mandrem Beach</li>
+                            <li>🌴 Relaxation</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌙 Evening</h3>
+                        <ul class="space-y-2">
+                            <li>🎉 Morjim Beach Party</li>
+                            <li>💃 North Goa nightlife</li>
+                            <li>🍸 Party at Marbela</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 5 -->
+            <div class="day-card p-6 rounded-lg">
+                <h2 class="text-3xl section-title pb-2 mb-4 font-semibold">Day 5: North Goa Exploration</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌅 Morning</h3>
+                        <ul class="space-y-2">
+                            <li>🧘 Arambol Beach Yoga</li>
+                            <li>🏖️ Keri Beach</li>
+                            <li>🌊 Morning meditation</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌞 Afternoon</h3>
+                        <ul class="space-y-2">
+                            <li>🏖️ Vagator Beach</li>
+                            <li>🍽️ Lunch near Ozran</li>
+                            <li>📸 Beach exploration</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌙 Evening</h3>
+                        <ul class="space-y-2">
+                            <li>🌇 Sunset at Morjim</li>
+                            <li>🍽️ Tomato's Restaurant</li>
+                            <li>🕺 Party at Soro</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Day 6 -->
+            <div class="day-card p-6 rounded-lg">
+                <h2 class="text-3xl section-title pb-2 mb-4 font-semibold">Day 6: Final North Goa Adventures</h2>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌅 Morning</h3>
+                        <ul class="space-y-2">
+                            <li>🏄 Flyboarding</li>
+                            <li>🎲 Big Daddy Casino</li>
+                            <li>🌊 Water adventures</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌞 Afternoon</h3>
+                        <ul class="space-y-2">
+                            <li>🏖️ Anjuna Beach</li>
+                            <li>🏎️ Go Karting in Arpora</li>
+                            <li>🌴 Leisure time</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-xl mb-2 text-blue-700">🌙 Evening</h3>
+                        <ul class="space-y-2">
+                            <li>🌇 Final sunset at Ashvem</li>
+                            <li>🍽️ Farewell dinner</li>
+                            <li>💭 Trip memories</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-r from-blue-500 to-green-400 text-center py-6">
+            <p class="text-white text-xl">Your Unforgettable Goa Journey Concludes!</p>
+        </div>
+    </div>
+</body>
+</html>
